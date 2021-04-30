@@ -46,7 +46,7 @@ export function TaskList() {
 
     const auxTasks = tasks.filter(task => task.id !== id);
 
-    setTasks([...auxTasks]);
+    setTasks(auxTasks);
 
   }
 
